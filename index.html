@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pràctica JS</title>
+    <link rel="icon" href="favicon.ico" type="image/ico">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Adivina el número secreto</h1>
+    </header>
+
+    <section id="CODIGO">
+        <div>*</div>
+        <div>*</div>
+        <div>*</div>
+        <div>*</div>
+        <div>*</div>
+    </section>
+
+    <section id="COMPROBAR">
+        <p>Escribe aquí un número</p>
+        <input id="numUsuari" type="number" placeholder="01234">
+        <hr color="#1aa1f0">
+        <button onclick="comprobar()">Comprobar</button>
+    </section>
+
+    <section id="INFO">
+        <div id="rojo">Primer intento, suerte!</div>
+    </section>
+
+    <section id="RESULT">
+        <main></main>
+    </section>
+</body>
+</html>
